@@ -56,7 +56,7 @@ a {
     transition: .4s ease-in-out;
 }
 
-.currculum--side-left-hidden {
+.currculum__side-left--hidden {
     transform: translateX(-280px);
 }
 
@@ -228,7 +228,7 @@ a {
 .btn__toggle {
     position: absolute;
     top: 50px;
-    left: 10px;
+    right: -40px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -271,5 +271,10 @@ a {
 
     .btn__toggle {
         display: block;
+    }
+
+    .curriculum__side-left {
+        position: fixed;
+        z-index: 2;
     }
 }
