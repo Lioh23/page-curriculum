@@ -11,6 +11,10 @@ btnToggle.addEventListener('click', event => {
 
 window.addEventListener('resize', event => {
     if(window.innerWidth >= 1150) {
+
         sideLeft.classList.remove('currculum__side-left--hidden');
-    };
+    } else {
+
+        sideLeft.classList.add('currculum__side-left--hidden');
+    }
 })
